@@ -9,13 +9,13 @@ public static void main(String[] args){
              System.out.println("filePath1 is greater than filePath");
              
         }catch (Exception e) {
-        
-            e.printStackTrace();
-        }
         else
             Process p = Runtime.getRuntime().exec(filePath);
             System.out.println("filePath is less than filePath1");
     }
+            e.printStackTrace();
+        }
+        
 	
 
 }

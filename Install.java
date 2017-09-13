@@ -1,14 +1,15 @@
 class Install{
 public static void main(String[] args){
-
-        String a = "C:/Users/Administrator/.jenkins/workspace/test/npp.7.3.1.Installer.exe";
-        String b = "C:/Users/Administrator/.jenkins/workspace/test/npp.7.3.*.nstaller.exe";
+	float a = 7.3.1
+	float b = 7.3.*
+        String filepath = "C:/Users/Administrator/.jenkins/workspace/test/npp.7.3.1.Installer.exe";
+        String filepath1 = "C:/Users/Administrator/.jenkins/workspace/test/npp.7.3.*.nstaller.exe";
         if (a < b) {
-               Process p = Runtime.getRuntime().exec(b);             
+               Process p = Runtime.getRuntime().exec(filepath1);             
                System.out.println("b is greater than a");
              
         }else {
-           Process p = Runtime.getRuntime().exec(a);             
+           Process p = Runtime.getRuntime().exec(filepath);             
            System.out.println("a is less than b");
     }
            

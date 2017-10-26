@@ -1,0 +1,32 @@
+Before Upload:
+====================
+Z:\>fciv.exe Files.rar
+//
+// File Checksum Integrity Verifier version 2.05.
+//
+9767b80148da96bd5dc65d40766f42e1 files.rar
+
+Z:\>
+
+
+From Swift:
+================
+[root@ved-vda swift_downloads]# swift download sep22  d01/b8/b8fd9e2f4ea39308932e5340016a
+d01/b8/b8fd9e2f4ea39308932e5340016a [auth 0.679s, headers 1.413s, total 2867.527s, 7.480 MB/s]
+[root@ved-vda swift_downloads]# ls
+1gb_video  20_gb  7GB-video  d01  d54
+[root@ved-vda swift_downloads]# cd d01/b8/
+[root@ved-vda b8]# md5sum b8fd9e2f4ea39308932e5340016a
+9767b80148da96bd5dc65d40766f42e1  b8fd9e2f4ea39308932e5340016a
+[root@ved-vda b8]#
+
+
+From HCP:
+===============
+C:\Users\Administrator\Downloads>fciv.exe Files.rar
+//
+// File Checksum Integrity Verifier version 2.05.
+//
+40143690ff03596b8124d77401c49a90 files.rar
+
+C:\Users\Administrator\Downloads>

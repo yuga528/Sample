@@ -1,7 +1,0 @@
-third line
-
-added one line
-
-bugfix
-
-today is 13

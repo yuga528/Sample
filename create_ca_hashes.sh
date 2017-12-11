@@ -5,7 +5,7 @@
 
 # This file generates the file etc/ca_hashes.txt from the (root)certificate
 # Bundles in etc (etc/*.pem)
-
+# dec11 11AM
 TEMPDIR="/tmp"
 OPENSSL="bin/openssl.Darwin.x86_64 "
 
